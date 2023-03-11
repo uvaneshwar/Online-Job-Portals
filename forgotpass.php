@@ -36,7 +36,7 @@ if (isset($_POST['email'])){
         //Details for send
         //ing E-mail
         $from = "Job Portal";
-        $url = "http://www.jobportal.com/";
+        $url = "https://uvaneshwar.github.io/Online-Job-Portals/";
         $body  =  "Your Password Recovery
 		-----------------------------------------------
 		Url : $url;
@@ -44,7 +44,7 @@ if (isset($_POST['email'])){
 		Here is your password  : $pass;
 		Sincerely,
 		Coding Cyber";
-        $from = "help@jobportal.com";
+        $from = "help@uvaneshwar.com";
         $subject = "JobPortal Password recovered";
         $headers1 = "From: $from\n";
         $headers1 .= "Content-type: text/html;charset=iso-8859-1\r\n";
